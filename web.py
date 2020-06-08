@@ -11,3 +11,7 @@ def show_user_profile(username):
     # show the user profile for that user
     resp = f'User = {username}'
     return resp
+
+@app.route('/about')
+def about():
+  return "What about this then!!"

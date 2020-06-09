@@ -18,7 +18,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def index():
-  return "Hello Staging!!"
+  return "Welcome to Spiritual uk!!"
 
 @app.route('/api/<username>')
 def show_user_profile(username):

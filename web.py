@@ -1,4 +1,18 @@
-from flask import Flask
+#!/usr/bin/env python3
+"""
+Documentation
+
+See also https://www.python-boilerplate.com/flask
+"""
+from flask import Flask, jsonify
+from flask_cors import CORS
+from logzero import logger
+from blueprints.modulo1 import modulo1_blueprint
+from blueprints.modulo2 import modulo2_blueprint
+from blueprints.campaign import campaign_blueprint
+from blueprints.urbanExtents import urbanExtents_blueprint
+
+
 app=Flask(__name__)
 
 
@@ -15,3 +29,18 @@ def show_user_profile(username):
 @app.route('/about')
 def about():
   return "What about this then!!"
+
+@app.route("/helloworld")
+def hello_world():
+    logger.info("/")
+    return "Hello World"
+
+@app.route("/foo/<someId>")
+def foo_url_arg(someId):
+    logger.info("/foo/%s", someId)
+    return jsonify({"echo": someId})
+
+app.register_blueprint(modulo1_blueprint)
+app.register_blueprint(modulo2_blueprint)
+app.register_blueprint(campaign_blueprint)
+app.register_blueprint(urbanExtents_blueprint)

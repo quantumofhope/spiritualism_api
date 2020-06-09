@@ -8,3 +8,5 @@ pygal
 bokeh
 scipy
 pandas
+py2neo
+neo4j

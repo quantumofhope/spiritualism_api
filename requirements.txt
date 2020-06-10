@@ -1,4 +1,12 @@
-flask
-pytest
-neo4j
+pytest>=3.0.7
+requests
+tox>=2.7.0
+Flask==0.12.2
+flask-cors==3.0.2
+logzero  # see github.com/metachris/logzero
+pygal
+bokeh
+scipy
+pandas
 py2neo
+neo4j

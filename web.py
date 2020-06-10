@@ -11,6 +11,7 @@ from blueprints.modulo1 import modulo1_blueprint
 from blueprints.modulo2 import modulo2_blueprint
 from blueprints.campaign import campaign_blueprint
 from blueprints.urbanExtents import urbanExtents_blueprint
+from blueprints.mapper import mapper_blueprint
 
 
 app=Flask(__name__)
@@ -44,3 +45,4 @@ app.register_blueprint(modulo1_blueprint)
 app.register_blueprint(modulo2_blueprint)
 app.register_blueprint(campaign_blueprint)
 app.register_blueprint(urbanExtents_blueprint)
+app.register_blueprint(mapper_blueprint)

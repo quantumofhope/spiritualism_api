@@ -10,3 +10,4 @@ scipy
 pandas
 py2neo
 neo4j
+folium

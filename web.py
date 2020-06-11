@@ -4,7 +4,7 @@ Documentation
 
 See also https://www.python-boilerplate.com/flask
 """
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from flask_cors import CORS
 from logzero import logger
 from blueprints.modulo1 import modulo1_blueprint
@@ -18,8 +18,9 @@ app=Flask(__name__)
 
 
 @app.route('/')
-def index():
-  return "Welcome to Spiritual uk!!"
+@app.route('/<name>')
+def welcome(name=None):
+    return render_template('welcome.html', name=name)
 
 @app.route('/api/<username>')
 def show_user_profile(username):

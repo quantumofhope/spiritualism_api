@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Blueprint
-from flask import current_app
+# from flask import current_app
 
 modulo2_blueprint = Blueprint(name='modulo2', import_name=__name__, url_prefix='/modulo2/')
 

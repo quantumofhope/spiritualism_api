@@ -2,7 +2,7 @@
 from flask import Blueprint, render_template
 from flask import current_app
 import pandas as pd
-import json
+# import json
 
 urbanExtents_blueprint = Blueprint(name='urbanExtents', import_name=__name__, url_prefix='/urbanExtents/')
 

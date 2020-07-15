@@ -3,8 +3,8 @@ from flask import current_app
 from jinja2 import TemplateNotFound
 import pygal
 
-import requests
-from .helper import neomanager as neo
+# import requests
+# from .helper import neomanager as neo
 
 
 searchByIndustry = "match(c :CAMPAIGN)-[:CAMPAIGN_STATUS]->(s :STATUS) return c.industry as industry, count(c.industry) as IndustryCount order by industry ASC"

@@ -15,7 +15,7 @@ from blueprints.mapper import mapper_blueprint
 
 
 app=Flask(__name__)
-
+cors = CORS(app)
 
 @app.route('/')
 @app.route('/<name>')

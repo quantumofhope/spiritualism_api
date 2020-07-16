@@ -9,7 +9,7 @@
 [![GitHub license](https://img.shields.io/github/license/quantumofhope/spiritualism_api.svg)](https://github.com/quantumofhope/spiritualism_apis/blob/master/LICENSE)
 
 
-[![GitHub contributors](https://img.shields.io/github/contributors/quantumofhope/spiritualism_api.svg)](https://GitHub.com/quantumofhope/spiritualism_apis/graphs/contributors/)
+[![GitHub contributors](https://img.shields.io/github/contributors/quantumofhope/spiritualism_api.svg)](https://GitHub.com/quantumofhope/spiritualism_api/graphs/contributors/)
 
 [![GitHub issues](https://img.shields.io/github/issues/quantumofhope/spiritualism_api.svg)](https://GitHub.com/quantumofhope/spiritualism_api/issues/)
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/quantumofhope/spiritualism_api.svg)](https://GitHub.com/quantumofhope/spiritualism_api/issues?q=is%3Aissue+is%3Aclosed)

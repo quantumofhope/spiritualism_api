@@ -6,15 +6,14 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/quantumofhope/spiritualism_api.svg)](https://github.com/quantumofhope/spiritualism_apis/blob/master/LICENSE)
 
 
-[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)
+[![GitHub contributors](https://img.shields.io/github/contributors/quantumofhope/spiritualism_api.svg)](https://GitHub.com/quantumofhope/spiritualism_apis/graphs/contributors/)
 
-[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/)
-[![GitHub issues-closed](https://img.shields.io/github/issues-closed/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/quantumofhope/spiritualism_api.svg)](https://GitHub.com/quantumofhope/spiritualism_api/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/quantumofhope/spiritualism_api.svg)](https://GitHub.com/quantumofhope/spiritualism_api/issues?q=is%3Aissue+is%3Aclosed)
 
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 
 [![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)]
-

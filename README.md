@@ -10,9 +10,7 @@
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/quantumofhope/spiritualism_api.svg)](https://GitHub.com/quantumofhope/spiritualism_api/issues?q=is%3Aissue+is%3Aclosed)
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 [![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)]
-
-
-# heroku-deployment-badges
+heroku-deployment-badges
 ===========================
 [![Build Status](https://travis-ci.org/pussinboots/heroku-badge.svg?branch=master)](https://travis-ci.org/pussinboots/heroku-badge)
 [![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://heroku-badge.herokuapp.com/projects.html)

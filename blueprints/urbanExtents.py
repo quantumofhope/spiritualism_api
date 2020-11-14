@@ -32,3 +32,6 @@ def spirit():
     return render_template('view.html',tables=[data.to_html()], titles = ['spirit surfers'])
     # return 'Urban Extents - {}'.format(spir)
 
+@urbanExtents_blueprint.route('admin/', methods=['GET'])
+def admin():
+    return render_template('admin.html')

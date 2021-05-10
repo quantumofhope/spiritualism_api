@@ -39,3 +39,18 @@ def mapper(loc = ""):
                  popup=popup, icon=folium.Icon(color='green', icon='hand-holding-heart')))
     
     return folium_map._repr_html_()
+
+
+@mapper_blueprint.route('/church', methods=['GET'])
+def map_church():
+    chur = pd.read_json("./static/data/churches.json")
+    resp = chur.to_json(orient="split")
+    return resp
+
+    
+@mapper_blueprint.route('/care', methods=['GET'])
+def map_church():   
+    care = pd.read_json("./static/data/rec2.json")
+    resp = care.to_json(orient="split")
+    return resp
+    

@@ -14,3 +14,13 @@
 ===========================
 [![Build Status](https://travis-ci.org/pussinboots/heroku-badge.svg?branch=master)](https://travis-ci.org/pussinboots/heroku-badge)
 [![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://heroku-badge.herokuapp.com/projects.html)
+
+
+
+## Heroku
+
+The app can easily be deployed to Heroku, which offers either 550-1000 hours a month for free (sleeps after 30 minutes of inactivity). 
+
+[Heroku Pricing](https://www.heroku.com/pricing)
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
